@@ -31,8 +31,8 @@ A modern Streamlit app to import database schema definitions from YAML (ODBC/ODC
    - Select the target folder, model name, and progress status, then click "Create Model in Ellie".
 
 ## Configuration
-- **Ellie Subdomain (slug):** The subdomain for your Ellie.ai instance (e.g., `stan.stage` for `stan.stage.ellie.ai`).
-- **Ellie API Key:** Your personal API key for Ellie.ai.
+- **Ellie Subdomain (slug):** The subdomain for your Ellie.ai instance (e.g., `demoslug.trial` for `demoslug.trial.ellie.ai`).
+- **Ellie API Key:** Your environment API key for Ellie.ai.
 - **Duplicate Table Handling:**
   - *Add Postfix*: All tables included, duplicates get `_2`, `_3`, etc.
   - *Ignore Duplicates*: Only the first table with a given name is included.
