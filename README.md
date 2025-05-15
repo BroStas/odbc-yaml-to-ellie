@@ -1,9 +1,9 @@
-# ODBC Yaml to Ellie Importer
+# ODCS Yaml to Ellie Importer
 
-A modern Streamlit app to import database schema definitions from YAML (ODBC/ODCS style) into Ellie.ai, with ER diagram preview and rich metadata mapping.
+A modern Streamlit app to import database schema definitions from YAML (ODCS style) into Ellie.ai, with ER diagram preview and rich metadata mapping.
 
 ## Features
-- Upload a YAML file describing your database schema (ODCS/ODBC style)
+- Upload a YAML file describing your database schema (ODCS style)
 - Visualize the schema as an interactive ER diagram (with PK, FK, unique, not null, and descriptions)
 - Flexible handling of duplicate table names: add postfix, ignore, or combine attributes
 - Select which tables to import (all or a custom subset)

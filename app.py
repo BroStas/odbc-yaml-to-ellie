@@ -5,10 +5,10 @@ from streamlit.components.v1 import html
 import uuid
 
 # Configure page layout
-st.set_page_config(page_title="ODBC Yaml to Ellie importer", layout="wide")
+st.set_page_config(page_title="ODCS Yaml to Ellie importer", layout="wide")
 
 # Title
-st.title("ODBC Yaml to Ellie importer")
+st.title("ODCS Yaml to Ellie importer")
 
 # File uploader
 uploaded_file = st.file_uploader("Upload YAML file", type=["yaml","yml"])
